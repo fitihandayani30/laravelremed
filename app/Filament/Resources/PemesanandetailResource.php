@@ -30,6 +30,7 @@ class PemesanandetailResource extends Resource
     protected static ?string $navigationLabel = 'detailpemesanan';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+
     public static function form(Form $form): Form
     {
         return $form

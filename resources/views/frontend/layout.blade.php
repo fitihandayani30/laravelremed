@@ -124,7 +124,7 @@
 </div>
 
 <footer>
-    © {{ date('Y') }} <span>Catering Berkah</span>. All Rights Reserved
+    © {{ date('Y') }} <span>Catering</span>. All Rights Reserved
 </footer>
 
 </body>

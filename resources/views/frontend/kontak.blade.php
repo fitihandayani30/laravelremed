@@ -13,17 +13,17 @@
 ">
 
     <div style="margin-bottom:12px;">
-        <strong>📍 Alamat</strong><br>
+        <strong> Alamat</strong><br>
         <span style="color:#555;">Jalan Tanjab Timur</span>
     </div>
 
     <div style="margin-bottom:12px;">
-        <strong>📱 WhatsApp</strong><br>
+        <strong> WhatsApp</strong><br>
         <span style="color:#27ae60;">085367681316</span>
     </div>
 
     <div>
-        <strong>ℹ️ Keterangan</strong><br>
+        <strong>ℹ Keterangan</strong><br>
         <span style="color:#555;">Kami Memberi Yang Terbaik</span>
     </div>
 
