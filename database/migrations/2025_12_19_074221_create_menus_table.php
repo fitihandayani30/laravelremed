@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('menus', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_menu');
+            $table->enum('jenis_menu', ['Paket', 'Satuan']);
+            $table->integer('harga');
             $table->timestamps();
         });
     }

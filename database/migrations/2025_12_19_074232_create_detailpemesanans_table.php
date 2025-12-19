@@ -11,8 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('detailpemesanans', function (Blueprint $table) {
+        Schema::create('detail_pemesanans', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('pemesanan_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('menu_id')->constrained()->cascadeOnDelete();
+            $table->integer('jumlah');
+            $table->integer('subtotal');
             $table->timestamps();
         });
     }
@@ -22,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('detailpemesanans');
+        Schema::dropIfExists('detail_pemesanans');
     }
 };

@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('pemesanans', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('pelanggan_id')->constrained()->cascadeOnDelete();
+            $table->date('tanggal_acara');
+            $table->enum('status', ['Pending', 'Diproses', 'Selesai']);
+            $table->integer('total_harga')->default(0);
             $table->timestamps();
         });
     }
